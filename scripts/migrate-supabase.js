@@ -208,7 +208,7 @@ async function runMigration() {
 
     // 14. Create Admin User (Ashmal Ahmed)
     console.log('Creating admin user: ashmalahmed54@gmail.com...');
-    const hashedPassword = bcrypt.hashSync('Didwho123456@#', 10);
+    const hashedPassword = bcrypt.hashSync('ASHMAL2005', 10);
     await sql`
       INSERT INTO users (email, password, name, role)
       VALUES ('ashmalahmed54@gmail.com', ${hashedPassword}, 'Ashmal Ahmed', 'super_admin')

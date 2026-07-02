@@ -188,7 +188,7 @@ export async function GET(request: NextRequest) {
     await sql`TRUNCATE TABLE projects, resume_chunks, users CASCADE`;
 
     // 14. Create Admin User (Ashmal Ahmed)
-    const hashedPassword = bcrypt.hashSync('Didwho123456@#', 10);
+    const hashedPassword = bcrypt.hashSync('ASHMAL2005', 10);
     await sql`
       INSERT INTO users (email, password, name, role)
       VALUES ('ashmalahmed54@gmail.com', ${hashedPassword}, 'Ashmal Ahmed', 'super_admin')
