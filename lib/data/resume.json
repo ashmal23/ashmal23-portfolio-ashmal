@@ -1,0 +1,68 @@
+{
+  "name": "Ashmal Ahmed",
+  "title": "COMPUTER SCIENCE STUDENT | SOFTWARE DEVELOPER",
+  "about": "Computer Science student at Greenwich University with strong problem-solving skills and hands-on experience in C and Python programming. Passionate about software engineering, data structures, and object-oriented programming. Eager to develop industry-relevant skills and contribute to real-world software projects through rigorous engineering practices.",
+  "contact": {
+    "email": "ashmalahmed54@gmail.com",
+    "phone": "+92 315 1116129",
+    "WhatsApp": "+92 315 1116129",
+    "github": "https://github.com/ashmal23",
+    "linkedin": "https://www.linkedin.com/in/ashmal-ahmed-988776347",
+    "location": "Karachi, Pakistan"
+  },
+  "skills": [
+    "Python",
+    "C",
+    "Problem Solving",
+    "Object Oriented Programming (OOP)",
+    "Data Structures",
+    "Arrays & Lists",
+    "Algorithms",
+    "GitHub",
+    "VS Code",
+    "Programming Fundamentals"
+  ],
+  "experience": [
+    {
+      "role": "Academic Projects & Self Study",
+      "company": "Greenwich University / Self-Guided",
+      "duration": "Sep 2025 - Current",
+      "details": [
+        "Built console-based programs in C and Python to reinforce fundamentals",
+        "Explored object-oriented programming paradigms and algorithmic logic",
+        "Managed source code versions using Git and GitHub"
+      ]
+    }
+  ],
+  "education": [
+    "BS Computer Science (BSCS) - Greenwich University (Sep 2025 - Current)",
+    "Coursework: Programming Fundamentals, Object Oriented Programming"
+  ],
+  "current_focus": [
+    "Object-Oriented Programming (OOP)",
+    "Data Structures & Basic Algorithms",
+    "SaaS Development",
+    "Modern Web Technologies"
+  ],
+  "strengths": [
+    "Strong logical and problem-solving mindset",
+    "Fast learner and self-motivated developer",
+    "Attention to detail and input validation"
+  ],
+  "projects": [
+    {
+      "title": "STUDENT RECORD MANAGEMENT SYSTEM (CONSOLE-BASED)",
+      "description": "Designed and implemented a menu-driven application to manage student data (add, update, delete, search) using Python and C. Applied modular programming to improve maintainability and focused heavily on input validation.",
+      "tech_stack": [
+        "Python",
+        "C",
+        "CLI",
+        "Data Structures"
+      ],
+      "live_link": null,
+      "github_link": "https://github.com/ashmal23",
+      "image_path": "/student-record-system.png"
+    }
+  ],
+  "final_statement": "Committed to learning, building, and delivering high-quality console and web software while advancing my studies in Computer Science."
+}

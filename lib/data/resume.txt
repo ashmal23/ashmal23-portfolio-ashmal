@@ -1,0 +1,40 @@
+NAME: Ashmal Ahmed
+TITLE: COMPUTER SCIENCE STUDENT | SOFTWARE DEVELOPER
+
+ABOUT:
+Computer Science student at Greenwich University with strong problem-solving skills and hands-on experience in C and Python programming. Passionate about software engineering, data structures, and object-oriented programming. Eager to develop industry-relevant skills and contribute to real-world software projects through rigorous engineering practices.
+
+CONTACT:
+Email: ashmalahmed54@gmail.com
+Phone: +92 315 1116129
+WhatsApp: +92 315 1116129
+GitHub: https://github.com/ashmal23
+LinkedIn: https://www.linkedin.com/in/ashmal-ahmed-988776347
+Location: Karachi, Pakistan
+
+SKILLS:
+Python, C, Problem Solving, Object Oriented Programming (OOP), Data Structures, Arrays & Lists, Algorithms, GitHub, VS Code, Programming Fundamentals
+
+EXPERIENCE:
+Academic Projects & Self Study (Sep 2025 - Current)
+  - Built console-based programs in C and Python to reinforce fundamentals
+  - Explored object-oriented programming paradigms and algorithmic logic
+  - Managed source code versions using Git and GitHub
+
+EDUCATION:
+  - BS Computer Science (BSCS) at Greenwich University (Sep 2025 - Current)
+  - Coursework: Programming Fundamentals, Object Oriented Programming
+
+CURRENT FOCUS:
+  - Object-Oriented Programming (OOP)
+  - Data Structures & Basic Algorithms
+  - SaaS Development
+  - Modern Web Technologies
+
+STRENGTHS:
+  - Strong logical and problem-solving mindset
+  - Fast learner and self-motivated developer
+  - Attention to detail and input validation
+
+FINAL STATEMENT:
+Committed to learning, building, and delivering high-quality console and web software while advancing my studies in Computer Science.
