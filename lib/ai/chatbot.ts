@@ -90,7 +90,7 @@ Skills: Next.js, React, Node.js, Flutter, Python, JavaScript, TypeScript, MongoD
         const relevantContext = rankedChunks.slice(0, 6).map((item: any) => item.content);
 
         // 4. Fetch all projects and rank them
-        const dbProjects = await sql`SELECT * FROM projects` as Project[];
+        const dbProjects = await sql`SELECT * FROM projects` as any as Project[];
         const rankedProjects = dbProjects.map(p => {
             const searchStr = `${p.title} ${p.description} ${p.tags.join(' ')}`.toLowerCase();
             const score = stringSimilarity(userMessage.toLowerCase(), searchStr);
