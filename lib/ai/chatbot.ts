@@ -44,7 +44,7 @@ export async function getChatResponse(userMessage: string, history: ChatMessage[
     };
 
     try {
-        const settingsRows = await sql`SELECT config_key, config_val FROM site_settings` as { config_key: string, config_val: any }[];
+        const settingsRows = await sql`SELECT config_key, config_val FROM site_settings` as any as { config_key: string, config_val: any }[];
         const chatRow = settingsRows.find(r => r.config_key === 'chatbot_config');
         if (chatRow && chatRow.config_val) {
             chatbotConfig = { ...chatbotConfig, ...chatRow.config_val };
@@ -72,10 +72,10 @@ Skills: Next.js, React, Node.js, Flutter, Python, JavaScript, TypeScript, MongoD
         `.trim();
 
         // 3. Fetch all resume chunks and knowledge base entries and rank them
-        const resumeChunks = await sql`SELECT content FROM resume_chunks` as { content: string }[];
+        const resumeChunks = await sql`SELECT content FROM resume_chunks` as any as { content: string }[];
         let kbEntries: { content: string }[] = [];
         try {
-            kbEntries = await sql`SELECT content FROM knowledge_base` as { content: string }[];
+            kbEntries = await sql`SELECT content FROM knowledge_base` as any as { content: string }[];
         } catch (_) {
             console.warn("[Chatbot] Could not load knowledge_base entries.");
         }

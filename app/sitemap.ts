@@ -58,7 +58,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       SELECT slug, created_at, published_at 
       FROM posts 
       WHERE is_published = true
-    `) as { slug: string; created_at: string; published_at?: string }[];
+    `) as any as { slug: string; created_at: string; published_at?: string }[];
 
     for (const post of posts) {
       routes.push({
