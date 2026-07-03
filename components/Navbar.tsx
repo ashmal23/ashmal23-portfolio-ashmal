@@ -61,9 +61,14 @@ const Navbar: React.FC = () => {
 
         const handleOpenAuth = () => setIsAuthModalOpen(true);
 
-        // Check for logged in user
-        const storedUser = localStorage.getItem("current_user");
-        if (storedUser) setUser(JSON.parse(storedUser));
+        const checkUser = () => {
+            const storedUser = localStorage.getItem("current_user");
+            setUser(storedUser ? JSON.parse(storedUser) : null);
+        };
+
+        checkUser();
+        window.addEventListener("auth-change", checkUser);
+        window.addEventListener("storage", checkUser);
 
         window.addEventListener("scroll", handleScroll);
         window.addEventListener("open-auth-modal", handleOpenAuth);
@@ -72,6 +77,8 @@ const Navbar: React.FC = () => {
         handleScroll();
 
         return () => {
+            window.removeEventListener("auth-change", checkUser);
+            window.removeEventListener("storage", checkUser);
             window.removeEventListener("scroll", handleScroll);
             window.removeEventListener("open-auth-modal", handleOpenAuth);
         };

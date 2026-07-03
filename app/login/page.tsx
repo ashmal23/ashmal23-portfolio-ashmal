@@ -40,6 +40,10 @@ function LoginContent() {
                 throw new Error(data.error || 'Invalid credentials');
             }
 
+            // Save user details to localStorage to establish the frontend session
+            localStorage.setItem("current_user", JSON.stringify(data.user));
+            window.dispatchEvent(new CustomEvent("auth-change"));
+
             const redirectUrl = searchParams.get('redirect');
             if (redirectUrl) {
                 router.push(redirectUrl);
