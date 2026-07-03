@@ -88,7 +88,7 @@ const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose, onAuthSuccess })
                     {/* Header */}
                     <div className="flex flex-col items-center mb-8">
                         <div className="text-3xl font-heading font-extrabold tracking-tighter mb-2">
-                            <span className="text-gradient">WH</span>
+                            <span className="text-gradient">AA</span>
                         </div>
                         <h2 className="text-2xl font-heading font-bold text-text-primary">
                             {isSignUp ? "Create Account" : "Welcome Back"}
@@ -134,7 +134,7 @@ const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose, onAuthSuccess })
                                     onChange={handleChange}
                                     required={isSignUp}
                                     className="w-full bg-bg-secondary border border-border rounded-xl px-4 py-3 focus:outline-none focus:border-accent-primary focus:ring-1 focus:ring-accent-primary/20 transition-all text-sm text-text-primary placeholder:text-text-secondary/30"
-                                    placeholder="Waiz Hussain"
+                                    placeholder="Ashmal Ahmed"
                                 />
                             </div>
                         )}
@@ -148,7 +148,7 @@ const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose, onAuthSuccess })
                                 onChange={handleChange}
                                 required
                                 className="w-full bg-bg-secondary border border-border rounded-xl px-4 py-3 focus:outline-none focus:border-accent-primary focus:ring-1 focus:ring-accent-primary/20 transition-all text-sm text-text-primary placeholder:text-text-secondary/30"
-                                placeholder="waiz@example.com"
+                                placeholder="ashmalahmed54@gmail.com"
                             />
                         </div>
 

@@ -40,9 +40,14 @@ function LoginContent() {
                 throw new Error(data.error || 'Invalid credentials');
             }
 
-            // In a real app, you'd set a cookie or JWT here
-            // For now we just redirect to home
-            router.push('/?login=success');
+            const redirectUrl = searchParams.get('redirect');
+            if (redirectUrl) {
+                router.push(redirectUrl);
+            } else if (data.user?.role === 'super_admin' || data.user?.role === 'admin') {
+                router.push('/admin');
+            } else {
+                router.push('/?login=success');
+            }
         } catch (err: any) {
             setError(err.message);
         } finally {
@@ -101,7 +106,7 @@ function LoginContent() {
                                 required
                                 value={email}
                                 onChange={(e) => setEmail(e.target.value)}
-                                placeholder="waiz@example.com"
+                                placeholder="ashmalahmed54@gmail.com"
                                 className="w-full bg-white/[0.03] border border-white/10 rounded-xl py-3.5 pl-12 pr-4 text-text-primary placeholder:text-text-muted focus:outline-none focus:border-accent-primary focus:bg-white/[0.05] transition-all"
                             />
                         </div>
