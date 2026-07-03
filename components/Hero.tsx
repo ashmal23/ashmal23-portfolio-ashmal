@@ -166,8 +166,8 @@ const Hero: React.FC = () => {
                             {t.viewWork}
                         </a>
                         <a
-                            href="/resume/Ashmal_Resume.pdf"
-                            download="Ashmal_Resume.pdf"
+                            href="/resume/Ashmal%20Ahmed%20cv.pdf"
+                            download="Ashmal Ahmed cv.pdf"
                             className="px-6 sm:px-10 py-3.5 sm:py-4 border border-accent-primary text-accent-primary font-bold rounded-full hover:bg-accent-primary/10 transition-all transform hover:-translate-y-1 text-center w-full sm:w-auto"
                         >
                             {t.downloadResume}

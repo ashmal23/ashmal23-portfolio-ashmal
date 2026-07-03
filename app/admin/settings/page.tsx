@@ -23,10 +23,10 @@ const DEFAULT_CHATBOT_CONFIG = {
 };
 
 const DEFAULT_SITE_INFO = {
-  hero_title: "Waiz Hussain",
-  hero_subtitle: "Full Stack Developer & AI Builder",
-  about_bio: "Building real-world applications across web, mobile, and AI domains using Next.js, Flutter & Node.js. Specialized in Autonomous Systems, SaaS products, and AI-powered workflows.",
-  resume_url: "/resume/Waiz_Resume_Full_Stack_Dev.pdf",
+  hero_title: "Ashmal Ahmed",
+  hero_subtitle: "Computer Science Student | Software Developer",
+  about_bio: "Computer Science student at Greenwich University, specializing in Python and C programming, object-oriented concepts, and basic algorithms. Eager to solve real-world problems.",
+  resume_url: "/resume/Ashmal%20Ahmed%20cv.pdf",
 };
 
 export default function AdminSettingsPage() {
@@ -241,7 +241,7 @@ export default function AdminSettingsPage() {
                 type="text"
                 value={siteInfo.hero_title}
                 onChange={(e) => setSiteInfo({ ...siteInfo, hero_title: e.target.value })}
-                placeholder="Waiz Hussain"
+                placeholder="Ashmal Ahmed"
                 className={inputCls}
               />
             </div>

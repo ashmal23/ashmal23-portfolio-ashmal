@@ -40,7 +40,7 @@ export async function getChatResponse(userMessage: string, history: ChatMessage[
         hero_title: "Ashmal Ahmed",
         hero_subtitle: "Computer Science Student | Software Developer",
         about_bio: "Computer Science student at Greenwich University, specializing in Python and C programming, object-oriented concepts, and basic algorithms. Eager to solve real-world problems.",
-        resume_url: "/resume/Ashmal_Resume.pdf"
+        resume_url: "/resume/Ashmal%20Ahmed%20cv.pdf"
     };
 
     try {

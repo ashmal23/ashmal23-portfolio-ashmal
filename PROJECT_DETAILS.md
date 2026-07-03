@@ -10,7 +10,7 @@ This document contains the core details, features, and technical architecture of
 1. **AI Chatbot (RAG)**: Floating widget that answers queries instantly. It parses custom tokens (e.g., `[PROJECT_CARD: ...]`) to render interactive React components inline. Powered by Cerebras Llama 3.1 8B.
 2. **Project Showcase**: Displays top projects in a responsive grid. Hover effects show live demo and GitHub links.
 3. **Secure User Authentication**: Custom login/signup with PostgreSQL and bcrypt. Session state is managed via localStorage for client-side interactions.
-4. **Automated Contact Form**: Uses EmailJS to deliver messages directly to Waiz. Pre-fills data for authenticated users.
+4. **Automated Contact Form**: Uses EmailJS to deliver messages directly to Ashmal. Pre-fills data for authenticated users.
 5. **Modern UI/UX**: Built using Tailwind CSS and Framer Motion. Uses a custom dark glassmorphism theme with an HTML5 canvas particle background.
 
 ## 3. Technology Stack

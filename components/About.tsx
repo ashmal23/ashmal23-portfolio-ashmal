@@ -28,8 +28,8 @@ const About: React.FC = () => {
                             <button
                                 onClick={() => {
                                     const link = document.createElement('a');
-                                    link.href = '/resume/Waiz_Resume_Full_Stack_Dev.pdf';
-                                    link.download = 'Waiz_Resume_Full_Stack_Dev.pdf';
+                                    link.href = '/resume/Ashmal%20Ahmed%20cv.pdf';
+                                    link.download = 'Ashmal Ahmed cv.pdf';
                                     document.body.appendChild(link);
 
                                     const btn = document.getElementById('resume-btn');
@@ -70,7 +70,7 @@ const About: React.FC = () => {
                                 {/* Avatar Wrapper */}
                                 <div className="relative w-[160px] h-[160px] xs:w-[180px] xs:h-[180px] sm:w-64 sm:h-64 md:w-80 md:h-80 rounded-full border-4 border-bg-secondary flex items-center justify-center bg-bg-secondary overflow-hidden">
                                     <span className="text-6xl sm:text-7xl md:text-8xl font-heading font-extrabold text-gradient pointer-events-none">
-                                        WH
+                                        AA
                                     </span>
                                 </div>
 

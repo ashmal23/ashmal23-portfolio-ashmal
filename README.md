@@ -68,8 +68,8 @@ In Vercel Dashboard → **Project → Settings → Environment Variables**, add:
 
 ```bash
 # 1. Clone
-git clone https://github.com/waizhussain9955/portfolio
-cd portfolio
+git clone https://github.com/ashmal23/ashmal23-portfolio-ashmal.git
+cd ashmal23-portfolio-ashmal
 
 # 2. Install dependencies
 npm install

@@ -40,7 +40,7 @@ export async function GET(req: Request) {
             { id: 4, title: "Beta UAT & Deployment", status: "Pending", date: "July 15, 2026" }
           ],
           files: [
-            { id: 1, name: "Project_Proposal.pdf", url: "/resume/Waiz_Resume_Full_Stack_Dev.pdf" },
+            { id: 1, name: "Project_Proposal.pdf", url: "/resume/Ashmal%20Ahmed%20cv.pdf" },
             { id: 2, name: "System_Architecture_Diagram.png", url: "/icon.svg" }
           ]
         }
