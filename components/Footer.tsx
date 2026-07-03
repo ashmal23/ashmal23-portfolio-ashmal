@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
                     {/* Col 1 */}
                     <div className="space-y-6">
                         <Link href="/" className="text-3xl font-heading font-extrabold tracking-tighter">
-                            <span className="text-gradient">WH</span>
+                            <span className="text-gradient">AA</span>
                         </Link>
                         <p className="text-text-secondary text-sm leading-relaxed max-w-xs">
                             Building real, usable, and scalable digital products using modern technologies and AI-powered workflows.

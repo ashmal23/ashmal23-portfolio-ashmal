@@ -195,7 +195,7 @@ const Contact: React.FC = () => {
                                     </svg>
                                 </a>
                                 <a
-                                    href="https://wa.me/923272051549"
+                                    href="https://wa.me/923151116129"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="w-10 h-10 glass rounded-lg flex items-center justify-center hover:shadow-[0_0_15px_var(--color-glow)] hover:-translate-y-1 transition-all group"
